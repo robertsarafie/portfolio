@@ -4,13 +4,17 @@
 @import './contact';
 
 .content-main {
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  height: 100vh;
+  @media (min-width: 768px) {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+  }
 }
 
 section {
-  scroll-snap-align: start;
+  @media (min-width: 768px) {
+    scroll-snap-align: start;
+  }
 }
 
 .header {

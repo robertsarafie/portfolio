@@ -7,7 +7,7 @@ export default function Contact() {
         <ul>
           <li>
             <a href="tel:+40751299259" title="+40751299259">
-              <i class="fa-solid fa-square-phone"></i>
+              <i className="fa-solid fa-square-phone"></i>
             </a>
           </li>
 
@@ -16,7 +16,7 @@ export default function Contact() {
               href="mailto:sarafierobert@gmail.com"
               title="sarafierobert@gmail.com"
             >
-              <i class="fa-solid fa-square-envelope"></i>
+              <i className="fa-solid fa-square-envelope"></i>
             </a>
           </li>
 
@@ -27,7 +27,7 @@ export default function Contact() {
               rel="noopener noreferrer"
               title="instagram"
             >
-              <i class="fa-brands fa-square-instagram"></i>
+              <i className="fa-brands fa-square-instagram"></i>
             </a>
           </li>
 
@@ -38,7 +38,7 @@ export default function Contact() {
               rel="noopener noreferrer"
               title="linkedin"
             >
-              <i class="fa-brands fa-linkedin"></i>
+              <i className="fa-brands fa-linkedin"></i>
             </a>
           </li>
 
@@ -49,7 +49,7 @@ export default function Contact() {
               rel="noopener noreferrer"
               title="github"
             >
-              <i class="fa-brands fa-square-github"></i>
+              <i className="fa-brands fa-square-github"></i>
             </a>
           </li>
         </ul>

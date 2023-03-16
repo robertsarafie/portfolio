@@ -34,7 +34,7 @@ export default function Work() {
                 title="Github"
               >
                 Github
-                <i class="fa-brands fa-square-github"></i>
+                <i className="fa-brands fa-square-github"></i>
               </a>
             </div>
           </article>
@@ -70,7 +70,7 @@ export default function Work() {
                 title="Github"
               >
                 Github
-                <i class="fa-brands fa-square-github"></i>
+                <i className="fa-brands fa-square-github"></i>
               </a>
             </div>
           </article>
@@ -106,7 +106,7 @@ export default function Work() {
                 title="Github"
               >
                 Github
-                <i class="fa-brands fa-square-github"></i>
+                <i className="fa-brands fa-square-github"></i>
               </a>
             </div>
           </article>
@@ -142,7 +142,7 @@ export default function Work() {
                 title="Github"
               >
                 Github
-                <i class="fa-brands fa-square-github"></i>
+                <i className="fa-brands fa-square-github"></i>
               </a>
             </div>
           </article>
@@ -178,7 +178,7 @@ export default function Work() {
                 title="Github"
               >
                 Github
-                <i class="fa-brands fa-square-github"></i>
+                <i className="fa-brands fa-square-github"></i>
               </a>
             </div>
           </article>
