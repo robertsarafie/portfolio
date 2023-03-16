@@ -1,0 +1,108 @@
+.about {
+  background: linear-gradient(180deg, #14213d 65%, #fca311 40%);
+
+  @media (min-width: 768px) {
+    background: linear-gradient(90deg, #14213d 80%, #fca311 10%);
+  }
+
+  &-inner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: unset;
+      padding: 100px 0px;
+    }
+
+    & h1 {
+      color: $brand-secondary;
+    }
+
+    &-description {
+      color: $white;
+      font-size: 11px;
+      font-weight: 300;
+      max-width: 442px;
+
+      @media (min-width: 768px) {
+        font-size: 15px;
+        max-width: 420px;
+      }
+
+      @media (min-width: 994px) {
+        font-size: 20px;
+        max-width: 588px;
+      }
+
+      @media (min-width: 1205px) {
+        font-size: 20px;
+        max-width: 778px;
+      }
+
+      & span {
+        color: $brand-secondary;
+      }
+    }
+
+    &-image {
+      position: relative;
+      rotate: 10deg;
+      transition: 0.3s ease-in-out;
+
+      &:hover {
+        rotate: 0deg;
+      }
+
+      & > picture {
+        margin-top: 70px;
+        margin-bottom: 50px;
+        display: block;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+
+        @media (min-width: 768px) {
+          margin-top: unset;
+          margin-bottom: unset;
+        }
+      }
+
+      & img {
+        width: 150px;
+        filter: grayscale(100%);
+        transition: 0.3s ease-in-out;
+
+        @media (min-width: 768px) {
+          width: 250px;
+        }
+
+        &:hover {
+          filter: grayscale(0%);
+          transform: scale(1.1);
+        }
+      }
+
+      &-rectangle {
+        content: '';
+        width: 150px;
+        height: 150px;
+        border: 1px solid #14213d;
+        position: absolute;
+        top: 77px;
+        left: 7px;
+
+        @media (min-width: 768px) {
+          top: 7px;
+          left: 7px;
+          width: 250px;
+          height: 250px;
+        }
+      }
+    }
+  }
+}

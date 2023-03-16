@@ -1,0 +1,76 @@
+@import './about';
+@import './work';
+@import './skills';
+@import './contact';
+
+.content-main {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+section {
+  scroll-snap-align: start;
+}
+
+.header {
+  &:first-child {
+    padding-left: 7px;
+    padding-top: 1px;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+    color: $white;
+    transition: 0.3s ease-in-out;
+
+    &:first-child:hover {
+      color: $brand-secondary;
+    }
+
+    @media (min-width: 768px) {
+      font-size: 40px;
+      padding-left: 20px;
+      padding-top: 13px;
+    }
+  }
+}
+
+.content {
+  &-main {
+    & > section {
+      & h1 {
+        font-size: 37px;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 14px;
+
+        @media (min-width: 768px) {
+          font-size: 80px;
+          text-align: start;
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  justify-content: center;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    font-size: 16px;
+  }
+
+  &-line {
+    content: '';
+    width: 80vw;
+    height: 2px;
+    background-color: $brand-primary;
+  }
+}

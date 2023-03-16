@@ -1,0 +1,41 @@
+.skills {
+  background: $brand-primary;
+  margin-bottom: 20px;
+
+  &-inner {
+    padding: 20px 0;
+
+    @media (min-width: 768px) {
+      padding: 100px 0;
+    }
+  }
+
+  & h1:first-child {
+    color: $brand-secondary;
+  }
+
+  &-list {
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 300;
+
+    @media (min-width: 768px) {
+      font-size: 30px;
+      flex-direction: row;
+      justify-content: center;
+      gap: 7%;
+    }
+
+    & li {
+      margin-bottom: 3px;
+
+      &:last-child {
+        margin-bottom: 0px;
+      }
+    }
+  }
+}

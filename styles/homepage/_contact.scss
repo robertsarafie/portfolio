@@ -1,0 +1,87 @@
+.contact {
+  @media (min-width: 768px) {
+    padding: 50px 0px;
+  }
+
+  &-title {
+    margin-bottom: 5px;
+  }
+
+  &-connect {
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+
+    & ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      font-size: 35px;
+      gap: 20px;
+      margin-bottom: 10px;
+
+      @media (min-width: 768px) {
+        font-size: 70px;
+        padding-right: 50px;
+      }
+    }
+
+    li {
+      transition: 0.2s linear;
+    }
+
+    li:nth-child(1):hover {
+      color: #55a630;
+    }
+
+    li:nth-child(2):hover {
+      color: #c1121f;
+    }
+
+    li:nth-child(3):hover {
+      color: #d4259f;
+    }
+
+    li:nth-child(4):hover {
+      color: #0077b5;
+    }
+
+    li:nth-child(5):hover {
+      color: #6e5494;
+    }
+
+    &-dog {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 20px;
+
+      @media (min-width: 768px) {
+        align-items: center;
+      }
+
+      &-description {
+        text-align: center;
+        font-family: 'Patrick Hand';
+        font-weight: normal;
+
+        @media (min-width: 768px) {
+          font-size: 25px;
+        }
+      }
+
+      & > picture > img {
+        width: 100px;
+
+        @media (min-width: 768px) {
+          width: 150px;
+        }
+      }
+    }
+  }
+}
