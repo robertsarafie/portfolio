@@ -5,6 +5,10 @@
     background: linear-gradient(90deg, #14213d 80%, #fca311 10%);
   }
 
+  @media (min-width: 1950px) {
+    background: linear-gradient(90deg, #14213d 70%, #fca311 10%);
+  }
+
   &-inner {
     width: 100%;
     display: flex;

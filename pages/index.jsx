@@ -9,7 +9,7 @@ export default function Home() {
     <div>
       <div className="content">
         <div className="content-main">
-          <section className="about">
+          <section className="about" id="top">
             <header className="header">
               <Link href="/" title="Home">
                 R.

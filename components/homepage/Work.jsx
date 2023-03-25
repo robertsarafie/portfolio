@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Work() {
   return (
     <div className="work-inner container">
@@ -173,6 +175,32 @@ export default function Work() {
 
               <a
                 href="https://github.com/robertsarafie/bloo-character-animations"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Github"
+              >
+                Github
+                <i className="fa-brands fa-square-github"></i>
+              </a>
+            </div>
+          </article>
+        </li>
+
+        <li>
+          <article className="work-projects-content">
+            <Link href="#top" title="Personal Portfolio">
+              <picture>
+                <img src="/images/portfolio.png" alt="Personal Portfolio" />
+              </picture>
+            </Link>
+
+            <div className="work-projects-content-description">
+              <Link href="#top" title="Personal Portfolio">
+                Personal Portfolio
+              </Link>
+
+              <a
+                href="https://github.com/robertsarafie/portfolio/commits/main"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Github"

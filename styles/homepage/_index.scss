@@ -6,6 +6,7 @@
 .content-main {
   @media (min-width: 768px) {
     scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
     overflow-y: scroll;
     height: 100vh;
   }
@@ -18,7 +19,7 @@ section {
 }
 
 .header {
-  &:first-child {
+  & > :nth-child(1) {
     padding-left: 7px;
     padding-top: 1px;
     font-family: 'Inter';
@@ -28,7 +29,7 @@ section {
     color: $white;
     transition: 0.3s ease-in-out;
 
-    &:first-child:hover {
+    &:hover {
       color: $brand-secondary;
     }
 
